@@ -1,0 +1,31 @@
+/* *{} селектор со звездочкой самій низкий приоритет
+р {} приоритет віше чем со звездоской
+.class-name{}
+#id -name {} высокий приоритет одно айди на страницу, обращение через решетку
+inline-style {}
+ */
+h1{
+    color: orange;
+}
+mark{
+    background-color: peru;
+    font-size: 30px;
+    color: yellowgreen;
+}
+p mark {background-color: plum; 
+        color: tomato;
+}
+
+.text {text-transform: uppercase;
+       color: royalblue !important;
+       font-weight: bold;
+       
+}
+.text-large{ width: max-content;
+             color: teal;
+
+}
+.text-small {width: 200px;}
+#text {
+    color: seagreen;
+}
